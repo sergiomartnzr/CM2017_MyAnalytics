@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		D1F9DF251FA154E000EE8BA1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D1F9DF241FA154E000EE8BA1 /* AppDelegate.m */; };
-		D1F9DF281FA154E000EE8BA1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1F9DF271FA154E000EE8BA1 /* ViewController.m */; };
+		D1F9DF281FA154E000EE8BA1 /* Home.m in Sources */ = {isa = PBXBuildFile; fileRef = D1F9DF271FA154E000EE8BA1 /* Home.m */; };
 		D1F9DF2B1FA154E000EE8BA1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1F9DF291FA154E000EE8BA1 /* Main.storyboard */; };
 		D1F9DF2E1FA154E000EE8BA1 /* My_Analytics.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D1F9DF2C1FA154E000EE8BA1 /* My_Analytics.xcdatamodeld */; };
 		D1F9DF301FA154E000EE8BA1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1F9DF2F1FA154E000EE8BA1 /* Assets.xcassets */; };
@@ -20,8 +20,8 @@
 		D1F9DF201FA154E000EE8BA1 /* My Analytics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "My Analytics.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1F9DF231FA154E000EE8BA1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D1F9DF241FA154E000EE8BA1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		D1F9DF261FA154E000EE8BA1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		D1F9DF271FA154E000EE8BA1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D1F9DF261FA154E000EE8BA1 /* Home.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Home.h; sourceTree = "<group>"; };
+		D1F9DF271FA154E000EE8BA1 /* Home.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Home.m; sourceTree = "<group>"; };
 		D1F9DF2A1FA154E000EE8BA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D1F9DF2D1FA154E000EE8BA1 /* My_Analytics.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = My_Analytics.xcdatamodel; sourceTree = "<group>"; };
 		D1F9DF2F1FA154E000EE8BA1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -60,10 +60,8 @@
 		D1F9DF221FA154E000EE8BA1 /* My Analytics */ = {
 			isa = PBXGroup;
 			children = (
-				D1F9DF231FA154E000EE8BA1 /* AppDelegate.h */,
-				D1F9DF241FA154E000EE8BA1 /* AppDelegate.m */,
-				D1F9DF261FA154E000EE8BA1 /* ViewController.h */,
-				D1F9DF271FA154E000EE8BA1 /* ViewController.m */,
+				D1F9DF3D1FA154F200EE8BA1 /* Controllers */,
+				D1F9DF3C1FA154EA00EE8BA1 /* Main */,
 				D1F9DF291FA154E000EE8BA1 /* Main.storyboard */,
 				D1F9DF2F1FA154E000EE8BA1 /* Assets.xcassets */,
 				D1F9DF311FA154E000EE8BA1 /* LaunchScreen.storyboard */,
@@ -72,6 +70,24 @@
 				D1F9DF2C1FA154E000EE8BA1 /* My_Analytics.xcdatamodeld */,
 			);
 			path = "My Analytics";
+			sourceTree = "<group>";
+		};
+		D1F9DF3C1FA154EA00EE8BA1 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				D1F9DF231FA154E000EE8BA1 /* AppDelegate.h */,
+				D1F9DF241FA154E000EE8BA1 /* AppDelegate.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		D1F9DF3D1FA154F200EE8BA1 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D1F9DF261FA154E000EE8BA1 /* Home.h */,
+				D1F9DF271FA154E000EE8BA1 /* Home.m */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,7 +162,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D1F9DF2E1FA154E000EE8BA1 /* My_Analytics.xcdatamodeld in Sources */,
-				D1F9DF281FA154E000EE8BA1 /* ViewController.m in Sources */,
+				D1F9DF281FA154E000EE8BA1 /* Home.m in Sources */,
 				D1F9DF361FA154E000EE8BA1 /* main.m in Sources */,
 				D1F9DF251FA154E000EE8BA1 /* AppDelegate.m in Sources */,
 			);
