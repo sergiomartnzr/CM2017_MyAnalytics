@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		16E775CD4F165F384A2B2AF6 /* libPods-My Analytics.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F07BED55BC897700B8C5D40D /* libPods-My Analytics.a */; };
 		D1F9DF251FA154E000EE8BA1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D1F9DF241FA154E000EE8BA1 /* AppDelegate.m */; };
 		D1F9DF281FA154E000EE8BA1 /* Home.m in Sources */ = {isa = PBXBuildFile; fileRef = D1F9DF271FA154E000EE8BA1 /* Home.m */; };
 		D1F9DF2B1FA154E000EE8BA1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1F9DF291FA154E000EE8BA1 /* Main.storyboard */; };
@@ -14,9 +15,12 @@
 		D1F9DF301FA154E000EE8BA1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1F9DF2F1FA154E000EE8BA1 /* Assets.xcassets */; };
 		D1F9DF331FA154E000EE8BA1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1F9DF311FA154E000EE8BA1 /* LaunchScreen.storyboard */; };
 		D1F9DF361FA154E000EE8BA1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D1F9DF351FA154E000EE8BA1 /* main.m */; };
+		D1F9DF3F1FA1569600EE8BA1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D1F9DF3E1FA1569600EE8BA1 /* GoogleService-Info.plist */; };
+		D1F9DF411FA156E100EE8BA1 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = D1F9DF401FA156E100EE8BA1 /* Podfile */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		229433984B57B6E96EDA238E /* Pods-My Analytics.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-My Analytics.release.xcconfig"; path = "Pods/Target Support Files/Pods-My Analytics/Pods-My Analytics.release.xcconfig"; sourceTree = "<group>"; };
 		D1F9DF201FA154E000EE8BA1 /* My Analytics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "My Analytics.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1F9DF231FA154E000EE8BA1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D1F9DF241FA154E000EE8BA1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -28,6 +32,10 @@
 		D1F9DF321FA154E000EE8BA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D1F9DF341FA154E000EE8BA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D1F9DF351FA154E000EE8BA1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D1F9DF3E1FA1569600EE8BA1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D1F9DF401FA156E100EE8BA1 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D3BFA269C67C26DD8795320D /* Pods-My Analytics.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-My Analytics.debug.xcconfig"; path = "Pods/Target Support Files/Pods-My Analytics/Pods-My Analytics.debug.xcconfig"; sourceTree = "<group>"; };
+		F07BED55BC897700B8C5D40D /* libPods-My Analytics.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-My Analytics.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,17 +43,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16E775CD4F165F384A2B2AF6 /* libPods-My Analytics.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		463A32BE926775813904162B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F07BED55BC897700B8C5D40D /* libPods-My Analytics.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		89B0F1419FD0B7760AC8BB96 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D3BFA269C67C26DD8795320D /* Pods-My Analytics.debug.xcconfig */,
+				229433984B57B6E96EDA238E /* Pods-My Analytics.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		D1F9DF171FA154E000EE8BA1 = {
 			isa = PBXGroup;
 			children = (
+				D1F9DF401FA156E100EE8BA1 /* Podfile */,
 				D1F9DF221FA154E000EE8BA1 /* My Analytics */,
 				D1F9DF211FA154E000EE8BA1 /* Products */,
+				89B0F1419FD0B7760AC8BB96 /* Pods */,
+				463A32BE926775813904162B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -66,6 +95,7 @@
 				D1F9DF2F1FA154E000EE8BA1 /* Assets.xcassets */,
 				D1F9DF311FA154E000EE8BA1 /* LaunchScreen.storyboard */,
 				D1F9DF341FA154E000EE8BA1 /* Info.plist */,
+				D1F9DF3E1FA1569600EE8BA1 /* GoogleService-Info.plist */,
 				D1F9DF351FA154E000EE8BA1 /* main.m */,
 				D1F9DF2C1FA154E000EE8BA1 /* My_Analytics.xcdatamodeld */,
 			);
@@ -97,9 +127,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D1F9DF391FA154E000EE8BA1 /* Build configuration list for PBXNativeTarget "My Analytics" */;
 			buildPhases = (
+				DBC5CD619042E6EB557BA0AB /* [CP] Check Pods Manifest.lock */,
 				D1F9DF1C1FA154E000EE8BA1 /* Sources */,
 				D1F9DF1D1FA154E000EE8BA1 /* Frameworks */,
 				D1F9DF1E1FA154E000EE8BA1 /* Resources */,
+				1207F6E2D993E1F11372B12F /* [CP] Embed Pods Frameworks */,
+				1B8ACCF3D7902730A167B153 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -148,13 +181,70 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1F9DF411FA156E100EE8BA1 /* Podfile in Resources */,
 				D1F9DF331FA154E000EE8BA1 /* LaunchScreen.storyboard in Resources */,
+				D1F9DF3F1FA1569600EE8BA1 /* GoogleService-Info.plist in Resources */,
 				D1F9DF301FA154E000EE8BA1 /* Assets.xcassets in Resources */,
 				D1F9DF2B1FA154E000EE8BA1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1207F6E2D993E1F11372B12F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-My Analytics/Pods-My Analytics-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1B8ACCF3D7902730A167B153 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-My Analytics/Pods-My Analytics-resources.sh",
+				"${PODS_ROOT}/GoogleAuthUtilities/Frameworks/frameworks/GoogleAuthUtilities.framework/Resources/GTMOAuth2ViewTouch.xib",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-My Analytics/Pods-My Analytics-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DBC5CD619042E6EB557BA0AB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-My Analytics-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D1F9DF1C1FA154E000EE8BA1 /* Sources */ = {
@@ -296,6 +386,7 @@
 		};
 		D1F9DF3A1FA154E000EE8BA1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3BFA269C67C26DD8795320D /* Pods-My Analytics.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -309,6 +400,7 @@
 		};
 		D1F9DF3B1FA154E000EE8BA1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 229433984B57B6E96EDA238E /* Pods-My Analytics.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
