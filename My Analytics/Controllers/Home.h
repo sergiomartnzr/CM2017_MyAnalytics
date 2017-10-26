@@ -12,6 +12,7 @@
 
 @interface Home : UIViewController<GIDSignInUIDelegate>
 - (IBAction)btnSignInPressed:(id)sender;
+- (IBAction)btnSignOutPressed:(id)sender;
 
 @end
 

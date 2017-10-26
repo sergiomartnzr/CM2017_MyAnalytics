@@ -41,7 +41,22 @@
 
 
 - (IBAction)btnSignInPressed:(id)sender {
+    [FIRAnalytics logEventWithName:@"Signin_button"
+                        parameters:@{
+                                     @"name": @"Google",
+                                     @"full_text": @"Gmail"
+                                     }];
+    
     [GIDSignIn sharedInstance].uiDelegate = self;
     [[GIDSignIn sharedInstance] signIn];
+}
+
+- (IBAction)btnSignOutPressed:(id)sender {
+    NSError *signOutError;
+    BOOL status = [[FIRAuth auth] signOut:&signOutError];
+    if (!status) {
+        NSLog(@"Error signing out: %@", signOutError);
+        return;
+    }
 }
 @end
